@@ -9,8 +9,7 @@
 echo "src-git PWpackages https://github.com/xiaorouji/openwrt-passwall.git;packages" >> feeds.conf.default
 echo "src-git PWluci https://github.com/xiaorouji/openwrt-passwall.git;luci" >> feeds.conf.default
 
-echo 'src-git UBNETpackages unblockneteasemusic  https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git;packages' >>feeds.conf.default
-echo 'src-git UBNETluci unblockneteasemusic  https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git;luci' >>feeds.conf.default
+echo 'src-git unblockneteasemusic https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git' >>feeds.conf.default
 
 # Remove old theme 
 rm -rf package/lean/luci-theme-argon
